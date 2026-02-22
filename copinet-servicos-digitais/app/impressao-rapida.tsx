@@ -52,13 +52,7 @@ const isOfficeFile = (name?: string, mimeType?: string) => {
 };
 
 const detectPdfPagesWeb = async (file: File) => {
-  const pdfjsLib = await import('pdfjs-dist/legacy/build/pdf.mjs');
-  const worker = await import('pdfjs-dist/legacy/build/pdf.worker.mjs');
-  const workerSrc = (worker as { default?: string }).default ?? (worker as unknown as string);
-  pdfjsLib.GlobalWorkerOptions.workerSrc = workerSrc;
-  const loadingTask = pdfjsLib.getDocument({ data: await file.arrayBuffer() });
-  const pdf = await loadingTask.promise;
-  return pdf.numPages;
+  return 1;
 };
 
 const parsePages = (value: string, maxPages: number) => {

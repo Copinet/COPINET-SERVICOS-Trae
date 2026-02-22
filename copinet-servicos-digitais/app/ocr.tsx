@@ -10,31 +10,7 @@ export default function OcrScreen() {
     return (
       <View style={styles.container}>
         <Text style={styles.title}>OCR de RG/CNH</Text>
-        <input
-          type="file"
-          accept="image/*"
-          onChange={async (e) => {
-            const file = e.target.files?.[0];
-            if (!file) return;
-            setLoading(true);
-            const Tesseract = await import('tesseract.js');
-            const worker: any = await (Tesseract as any).createWorker();
-            if (worker.loadLanguage && worker.initialize) {
-              await worker.loadLanguage('por');
-              await worker.initialize('por');
-            } else if (worker.reinitialize) {
-              await worker.reinitialize('por');
-            }
-            const { data } = await worker.recognize(file);
-            setText(data.text || '');
-            if (worker.terminate) {
-              await worker.terminate();
-            }
-            setLoading(false);
-          }}
-        />
-        {loading && <ActivityIndicator />}
-        {text && <Text style={styles.result}>{text}</Text>}
+        <Text style={styles.subtitle}>Recurso disponível em breve</Text>
       </View>
     );
   }
