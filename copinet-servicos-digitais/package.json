@@ -1,0 +1,47 @@
+{
+  "name": "copinet-servicos-digitais",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "app": "expo start",
+    "tunnel:expo": "expo start --tunnel",
+    "tunnel:web": "node scripts/ngrok-web.js",
+    "export:web": "expo export -p web --output-dir web-build",
+    "preview:web": "node scripts/serve-web.js",
+    "preview:web:serve": "serve -s web-build -l 5173",
+    "build-and-preview": "npm run export:web && npm run preview:web",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo \"No linter configured\""
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "expo": "^51.0.0",
+    "expo-document-picker": "~12.0.2",
+    "expo-location": "~16.5.4",
+    "expo-notifications": "~0.29.0",
+    "expo-router": "^3.5.20",
+    "i18next": "^23.10.0",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "pdfjs-dist": "^5.4.624",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "^13.2.0",
+    "react-native": "0.74.0",
+    "react-native-safe-area-context": "4.8.0",
+    "react-native-screens": "~3.30.0",
+    "react-native-web": "~0.19.10",
+    "tesseract.js": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "~18.2.64",
+    "@types/react-native": "~0.73.0",
+    "ngrok": "^4.3.3",
+    "serve": "^14.2.3",
+    "typescript": "^5.3.3"
+  }
+}

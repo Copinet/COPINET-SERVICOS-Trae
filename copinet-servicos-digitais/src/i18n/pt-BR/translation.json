@@ -1,0 +1,114 @@
+{
+  "comum": {
+    "ok": "OK",
+    "cancelar": "Cancelar",
+    "salvar": "Salvar"
+  },
+  "home": {
+    "titulo": "Copinet Serviços Digitais",
+    "descricao": "Central acessível para serviços digitais e de copiadora",
+    "escanear": "Escanear RG/CNH",
+    "saudacao": "Olá",
+    "saudacaoPadrao": "Olá, cliente",
+    "digiteNome": "Digite seu nome por voz",
+    "bemVindo": "Bem-vindo(a) ao",
+    "servicosDigitais": "Serviços Digitais",
+    "subtitulo": "Sua central de serviços em Cubatão",
+    "impressaoRapida": "Impressão Rápida",
+    "impressaoRapidaSub": "Envie PDF ou imagens e retire na loja",
+    "acessoRapido": "Acesso Rápido",
+    "escanearDocumento": "Escanear Documento",
+    "encontrarLoja": "Encontrar Loja",
+    "falarSuporte": "Falar com Suporte",
+    "fazemosPraVoce": "Fazemos pra Você",
+    "categorias": "Categorias de Serviços",
+    "nossasLojas": "Nossas Lojas",
+    "abrirMapa": "Abrir no mapa",
+    "mapaTitulo": "Retirada rápida",
+    "mapaDesc": "Encontre parceiros próximos para retirada",
+    "verMapa": "Ver mapa",
+    "suporteTitulo": "Suporte Copinet",
+    "suporteDescricao": "Escolha a loja e o canal de atendimento disponível",
+    "whatsapp": "WhatsApp",
+    "chatApp": "Chat no app"
+  },
+  "servicos": {
+    "ocr": "Digitalizar RG/CNH (OCR)",
+    "fazemos": "Fazemos pra você (Marketplace)",
+    "mapa": "Mapa de lojas e parceiros",
+    "pagamento": "Pagamento via Pix",
+    "subtitulo": "Encontre o serviço que você precisa",
+    "ocrSub": "Leitura inteligente de documentos",
+    "fazemosSub": "Delegue a emissão aos parceiros",
+    "mapaSub": "Veja onde retirar seus documentos",
+    "pagamentoSub": "Pix com resumo detalhado",
+    "sozinho": "Sozinho",
+    "fazemosPraVoce": "Fazemos pra você",
+    "precoBase": "Base",
+    "precoSozinho": "Sozinho",
+    "maisPopulares": "Mais Populares",
+    "todasCategorias": "Todas as Categorias",
+    "servicosCount": "{{count}} serviços",
+    "todos": "Todos"
+  },
+  "tabs": {
+    "inicio": "Início",
+    "servicos": "Serviços",
+    "pedidos": "Pedidos",
+    "perfil": "Perfil"
+  },
+  "ocr": {
+    "titulo": "OCR de RG/CNH",
+    "emBreve": "Disponível em breve no aplicativo móvel"
+  },
+  "perfil": {
+    "supabaseIndefinido": "Configure as chaves do Supabase para entrar",
+    "verifiqueEmail": "Enviamos um link de acesso para seu e-mail",
+    "logadoComo": "Logado como",
+    "sair": "Sair",
+    "entrarEmail": "Entre com seu e-mail para receber o link de acesso",
+    "digiteEmail": "Digite seu e-mail",
+    "enviarLink": "Enviar link de acesso",
+    "titulo": "Meu Perfil",
+    "nomeCompleto": "Nome Completo",
+    "telefone": "Telefone",
+    "email": "E-mail",
+    "cpf": "CPF",
+    "salvar": "Salvar",
+    "documentosEscaneados": "Documentos Escaneados",
+    "nenhumDocumento": "Nenhum documento escaneado ainda",
+    "escanearDocumento": "Escanear Documento",
+    "maisOpcoes": "Mais Opções",
+    "nossasLojas": "Nossas Lojas",
+    "suporte": "Suporte",
+    "painelAdm": "Painel ADM"
+  },
+  "fazemos": {
+    "titulo": "Fazemos pra você",
+    "descreva": "Descreva o que precisa",
+    "solicitar": "Solicitar orçamento",
+    "configurarSupabase": "Configure o Supabase nas variáveis de ambiente",
+    "criado": "Solicitação criada com sucesso",
+    "nome": "Seu nome completo"
+  },
+  "mapa": {
+    "titulo": "Lojas e parceiros",
+    "descricao": "Mapa disponível no site; no app será exibido em breve"
+  },
+  "pedidos": {
+    "vazio": "Você ainda não tem pedidos",
+    "titulo": "Meus Pedidos",
+    "vazioTitulo": "Nenhum pedido encontrado",
+    "vazioSub": "Seus pedidos aparecerão aqui depois de solicitar um serviço",
+    "todos": "Todos",
+    "pendente": "Pendente",
+    "andamento": "Em andamento",
+    "concluido": "Concluído"
+  },
+  "pagamento": {
+    "titulo": "Pagamento via Pix",
+    "valor": "Valor (ex.: 49,90)",
+    "instrucoes": "Abra seu app do banco, escaneie o QR ou cole o código 'Pix Copia e Cola'.",
+    "copiar": "Copiar código Pix"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Copinet Serviços Digitais",
+    "slug": "copinet-servicos-digitais",
+    "scheme": "copinet",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "splash": { "backgroundColor": "#FFFFFF" },
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true },
+    "android": { "adaptiveIcon": { "backgroundColor": "#FFFFFF" }, "permissions": [] },
+    "web": { "bundler": "metro" },
+    "plugins": ["expo-notifications"]
+  }
+}
